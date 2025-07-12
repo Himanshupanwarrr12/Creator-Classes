@@ -34,7 +34,7 @@ const Footer = () => {
           <div className="flex flex-col">
             <div className="flex items-center mb-4">
               <div className="bg-gradient-to-r from-indigo-600 to-violet-700 w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold text-lg">
-                CC
+                <img src="/cclogo.png" alt="" />
               </div>
               <div className="ml-3">
                 <h2 className="text-xl font-bold text-white">Creator Classes</h2>

@@ -11,23 +11,19 @@ const Home = () => {
           <div className="inline-flex items-center bg-indigo-900/30 backdrop-blur-sm px-4 py-2 rounded-full border border-indigo-700/50 mb-8">
             <GraduationCap className="w-4 h-4 text-indigo-400 mr-2" />
             <span className="text-indigo-300 text-sm font-medium">
-              Transforming Education Since 2014
+              Transforming Students into Scholars Since 2014
             </span>
           </div>
 
-          {/* Main Heading - Static Text */}
+          {/* Main Heading */}
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
-            Excellence in Education,{" "}
-            <span className="bg-gradient-to-r from-indigo-400 to-violet-500 text-transparent bg-clip-text">
-              Results That Matter
-            </span>
+            Creating <span className="bg-gradient-to-r from-indigo-400 to-violet-500 text-transparent bg-clip-text">Achievers</span>,{" "}
+            <span className="text-violet-300">Not Just Learners.</span>
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8 leading-relaxed">
-            Creator Classes offers comprehensive coaching up to 12th grade,
-            focusing on nurturing excellence and building strong foundations for
-            academic success.
+          <p className="text-lg md:text-xl text-indigo-200 max-w-3xl mx-auto mb-8 leading-relaxed">
+            "At Creator Classes, we empower students up to 12th grade by building strong foundations and fostering a culture of academic excellence and growth."
           </p>
 
           {/* CTA Buttons */}
@@ -41,48 +37,88 @@ const Home = () => {
           </div>
 
           {/* Mission Statement */}
-          <div className="bg-slate-800/40 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 mb-16">
+          <div className="bg-gradient-to-br from-indigo-900/30 to-violet-900/30 backdrop-blur-sm rounded-2xl p-6 border border-indigo-700/50 mb-16">
             <p className="text-indigo-300 text-lg font-medium italic">
               "We are here to create toppers!"
             </p>
-            <p className="text-gray-300 mt-2">
+            <p className="text-violet-100 mt-2">
               Our commitment to excellence drives every lesson, every interaction, and every success story.
             </p>
           </div>
         </div>
 
-        {/* Founder Section */}
-        <div className="max-w-3xl mx-auto mb-16">
-          <div className="bg-indigo-900/30 backdrop-blur-sm rounded-2xl p-8 border border-indigo-700/50 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Founder and Managing Director
-            </h2>
-            <div className="flex flex-col items-center">
-              <div className="bg-gradient-to-br from-indigo-600 to-violet-700 rounded-full w-24 h-24 flex items-center justify-center text-white text-2xl font-bold mb-4">
-                YB
-              </div>
-              <h3 className="text-xl font-bold text-white">
-                Yashwant Singh Bisht
-              </h3>
-              <p className="text-indigo-300 font-medium mb-2">
-                MSc Physics & B.Ed
-              </p>
-              <p className="text-gray-300 max-w-2xl">
-                With over 12 years of teaching experience, Yashwant founded Creator Classes with a vision to transform education through personalized learning and innovative teaching methodologies.
-              </p>
-            </div>
+      {/* Founder Section */}
+<div className="max-w-5xl mx-auto mb-16">
+  <div className="bg-gradient-to-br from-indigo-900/40 to-violet-900/40 backdrop-blur-sm rounded-2xl p-8 border border-indigo-600/50">
+    <div className="flex flex-col lg:flex-row gap-8">
+      {/* Founder Image & Basic Info */}
+      <div className="lg:w-1/3 flex flex-col items-center text-center">
+        <div className="bg-gradient-to-br from-indigo-600 to-violet-700 rounded-full w-48 h-48 flex items-center justify-center mb-6 overflow-hidden">
+          <img src="/yash-Photoroom.png" alt="" />
+          <div className="bg-gray-200  border-dashed rounded-full w-full h-full" />
+        </div>
+        <h3 className="text-2xl font-bold text-white">
+          Yashwant Singh Bisht
+        </h3>
+        <p className="text-indigo-300 font-medium mb-4">
+          MSc Physics & B.Ed
+        </p>
+        <div className="w-16 h-1 bg-gradient-to-r from-indigo-500 to-violet-500 rounded-full mb-4"></div>
+        <p className="text-violet-200 text-sm">
+          Founder & Director
+        </p>
+      </div>
+
+      {/* Founder's Message */}
+      <div className="lg:w-2/3">
+        <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 text-center lg:text-left">
+          A Message from Our Founder
+        </h2>
+        
+        <div className="space-y-4 text-violet-100">
+          <p className="italic">Dear Students & Parents,</p>
+          
+          <p>
+            I'm Yashwant Singh, the founder of Creator Classes. With over 11 years of teaching experience, 
+            I established this institution to redefine education.
+          </p>
+          
+          <p>
+            At Creator Classes, we're dedicated to personalized learning and innovative teaching. 
+            We believe that with the right guidance, every student can achieve greatness. Our aim is to 
+            do more than just help you excel in exams like JEE, NEET, and NDA; we want to build a strong 
+            foundation, spark curiosity, and instill lifelong confidence.
+          </p>
+          
+          <p>
+            Our team of dedicated educators is committed to providing a focused academic environment 
+            and structured strategies to help you succeed, not just as students, but as responsible individuals.
+          </p>
+          
+          <p>
+            Join us at Creator Classes, and let's make learning a passion and success a habit.
+          </p>
+          
+          <div className="mt-8">
+            <p className="mb-1">Warm regards,</p>
+            <p className="font-bold text-white">Yashwant Singh</p>
+            <p className="text-indigo-300">Director, Creator Classes</p>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
 
         {/* Teacher Profiles */}
         <div className="max-w-5xl mx-auto mb-16">
           <h2 className="text-2xl md:text-3xl font-bold text-white text-center mb-12">
-            Meet Our Expert Faculty
+            Meet Our <span className="bg-gradient-to-r from-indigo-400 to-violet-500 text-transparent bg-clip-text">Expert Faculty</span>
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Physics Teacher */}
-            <div className="bg-slate-800/40 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-indigo-500/50 transition-all duration-300 group">
+            <div className="bg-gradient-to-br from-indigo-900/30 to-violet-900/30 backdrop-blur-sm rounded-2xl p-6 border border-indigo-700/50 hover:border-indigo-400/50 transition-all duration-300 group">
               <div className="flex items-start mb-4">
                 <div className="bg-gradient-to-br from-indigo-600 to-violet-700 rounded-xl w-14 h-14 flex items-center justify-center text-white text-lg font-bold group-hover:scale-110 transition-transform duration-300">
                   YB
@@ -94,19 +130,19 @@ const Home = () => {
                   <p className="text-indigo-300 font-medium">Physics Teacher (MSc Physics)</p>
                   <div className="flex items-center mt-1">
                     <Clock className="w-4 h-4 text-indigo-400 mr-1" />
-                    <span className="text-gray-400 text-sm">
-                      12+ years experience
+                    <span className="text-violet-200 text-sm">
+                      11+ years experience
                     </span>
                   </div>
                 </div>
               </div>
-              <p className="text-gray-300 group-hover:text-gray-200 transition-colors duration-300">
+              <p className="text-violet-100 group-hover:text-violet-50 transition-colors duration-300">
                 Bringing theoretical physics to life with real-world applications and engaging teaching methods.
               </p>
             </div>
 
             {/* Math Teacher */}
-            <div className="bg-slate-800/40 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-indigo-500/50 transition-all duration-300 group">
+            <div className="bg-gradient-to-br from-indigo-900/30 to-violet-900/30 backdrop-blur-sm rounded-2xl p-6 border border-indigo-700/50 hover:border-indigo-400/50 transition-all duration-300 group">
               <div className="flex items-start mb-4">
                 <div className="bg-gradient-to-br from-indigo-600 to-violet-700 rounded-xl w-14 h-14 flex items-center justify-center text-white text-lg font-bold group-hover:scale-110 transition-transform duration-300">
                   AT
@@ -120,20 +156,19 @@ const Home = () => {
                   </p>
                   <div className="flex items-center mt-1">
                     <Clock className="w-4 h-4 text-indigo-400 mr-1" />
-                    <span className="text-gray-400 text-sm">
-                      8+ years experience
+                    <span className="text-violet-200 text-sm">
+                      7+ years experience
                     </span>
                   </div>
                 </div>
               </div>
-              <p className="text-gray-300 group-hover:text-gray-200 transition-colors duration-300">
-                Transforming complex mathematical concepts into intuitive, easy-to-understand lessons that build student
-                confidence.
+              <p className="text-violet-100 group-hover:text-violet-50 transition-colors duration-300">
+                Transforming complex mathematical concepts into intuitive, easy-to-understand lessons that build student confidence.
               </p>
             </div>
 
             {/* Economics Teacher */}
-            <div className="bg-slate-800/40 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-indigo-500/50 transition-all duration-300 group">
+            <div className="bg-gradient-to-br from-indigo-900/30 to-violet-900/30 backdrop-blur-sm rounded-2xl p-6 border border-indigo-700/50 hover:border-indigo-400/50 transition-all duration-300 group">
               <div className="flex items-start mb-4">
                 <div className="bg-gradient-to-br from-indigo-600 to-violet-700 rounded-xl w-14 h-14 flex items-center justify-center text-white text-lg font-bold group-hover:scale-110 transition-transform duration-300">
                   MK
@@ -143,23 +178,23 @@ const Home = () => {
                     Monika Khatri
                   </h3>
                   <p className="text-indigo-300 font-medium">
-                    Economics Teacher (MSc Economics)
+                    Economics Teacher (M.A Economics)
                   </p>
                   <div className="flex items-center mt-1">
                     <Clock className="w-4 h-4 text-indigo-400 mr-1" />
-                    <span className="text-gray-400 text-sm">
+                    <span className="text-violet-200 text-sm">
                       5+ years experience
                     </span>
                   </div>
                 </div>
               </div>
-              <p className="text-gray-300 group-hover:text-gray-200 transition-colors duration-300">
+              <p className="text-violet-100 group-hover:text-violet-50 transition-colors duration-300">
                 Making economics relatable through real-world examples and current market trends to prepare students for practical challenges.
               </p>
             </div>
 
             {/* Junior Classes Teacher */}
-            <div className="bg-slate-800/40 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-indigo-500/50 transition-all duration-300 group">
+            <div className="bg-gradient-to-br from-indigo-900/30 to-violet-900/30 backdrop-blur-sm rounded-2xl p-6 border border-indigo-700/50 hover:border-indigo-400/50 transition-all duration-300 group">
               <div className="flex items-start mb-4">
                 <div className="bg-gradient-to-br from-indigo-600 to-violet-700 rounded-xl w-14 h-14 flex items-center justify-center text-white text-lg font-bold group-hover:scale-110 transition-transform duration-300">
                   R
@@ -173,46 +208,72 @@ const Home = () => {
                   </p>
                   <div className="flex items-center mt-1">
                     <Clock className="w-4 h-4 text-indigo-400 mr-1" />
-                    <span className="text-gray-400 text-sm">
+                    <span className="text-violet-200 text-sm">
                       4+ years experience
                     </span>
                   </div>
                 </div>
               </div>
-              <p className="text-gray-300 group-hover:text-gray-200 transition-colors duration-300">
+              <p className="text-violet-100 group-hover:text-violet-50 transition-colors duration-300">
                 Creating engaging learning experiences for younger students with innovative teaching methods and personalized attention.
+              </p>
+            </div>
+
+            {/* Ashish Tiwari - Nursing */}
+            <div className="bg-gradient-to-br from-indigo-900/30 to-violet-900/30 backdrop-blur-sm rounded-2xl p-6 border border-indigo-700/50 hover:border-indigo-400/50 transition-all duration-300 group">
+              <div className="flex items-start mb-4">
+                <div className="bg-gradient-to-br from-indigo-600 to-violet-700 rounded-xl w-14 h-14 flex items-center justify-center text-white text-lg font-bold group-hover:scale-110 transition-transform duration-300">
+                  AS
+                </div>
+                <div className="ml-4">
+                  <h3 className="text-xl font-bold text-white group-hover:text-indigo-300 transition-colors duration-300">
+                    Ashish Tiwari
+                  </h3>
+                  <p className="text-indigo-300 font-medium">
+                    Junior Classes (BSc Nursing)
+                  </p>
+                  <div className="flex items-center mt-1">
+                    <Clock className="w-4 h-4 text-indigo-400 mr-1" />
+                    <span className="text-violet-200 text-sm">
+                      2+ years experience
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <p className="text-violet-100 group-hover:text-violet-50 transition-colors duration-300">
+                Specializing in medical sciences with a focus on biology fundamentals and nursing career pathways.
+              </p>
+            </div>
+
+            {/* Reshma - PCM */}
+            <div className="bg-gradient-to-br from-indigo-900/30 to-violet-900/30 backdrop-blur-sm rounded-2xl p-6 border border-indigo-700/50 hover:border-indigo-400/50 transition-all duration-300 group">
+              <div className="flex items-start mb-4">
+                <div className="bg-gradient-to-br from-indigo-600 to-violet-700 rounded-xl w-14 h-14 flex items-center justify-center text-white text-lg font-bold group-hover:scale-110 transition-transform duration-300">
+                  RS
+                </div>
+                <div className="ml-4">
+                  <h3 className="text-xl font-bold text-white group-hover:text-indigo-300 transition-colors duration-300">
+                    Reshma
+                  </h3>
+                  <p className="text-indigo-300 font-medium">
+                    Junior Classes (BSc PCM)
+                  </p>
+                  <div className="flex items-center mt-1">
+                    <Clock className="w-4 h-4 text-indigo-400 mr-1" />
+                    <span className="text-violet-200 text-sm">
+                      2+ years experience
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <p className="text-violet-100 group-hover:text-violet-50 transition-colors duration-300">
+                Building strong foundations in Physics, Chemistry, and Mathematics for middle school students.
               </p>
             </div>
           </div>
         </div>
 
-        {/* Stats Section */}
-        <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {[
-              { icon: Award, value: "90%", label: "Success Rate" },
-              { icon: Users, value: "3000+", label: "Students Taught" },
-              { icon: GraduationCap, value: "10", label: "Expert Faculty" },
-              { icon: Clock, value: "10+", label: "Years Experience" },
-            ].map((stat, index) => {
-              const IconComponent = stat.icon;
-              return (
-                <div
-                  key={index}
-                  className="bg-slate-800/40 backdrop-blur-sm rounded-xl p-6 border border-slate-700/50 text-center hover:border-indigo-500/50 transition-all duration-300 group hover:scale-105"
-                >
-                  <IconComponent className="w-8 h-8 text-indigo-400 mx-auto mb-3 group-hover:scale-110 transition-transform duration-300" />
-                  <div className="text-2xl md:text-3xl font-bold text-indigo-400 mb-2 group-hover:text-violet-400 transition-colors duration-300">
-                    {stat.value}
-                  </div>
-                  <div className="text-gray-400 text-sm group-hover:text-gray-300 transition-colors duration-300">
-                    {stat.label}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
+       
       </div>
     </div>
   );
