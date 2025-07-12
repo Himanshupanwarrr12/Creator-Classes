@@ -5,23 +5,35 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-900 to-gray-900">
       {/* Hero Section */}
-      <div className="container mx-auto px-4 py-16 md:py-24">
+      <div className="container mx-auto px-4 py-5 md:py-24">
         <div className="max-w-4xl mx-auto text-center">
+         {/* Institute Real Image Section */}
+<div className="max-w-2xl mx-auto mb-4 ">
+  <div className="rounded-2xl overflow-hidden shadow-2xl border border-indigo-800/40 bg-gray-900 flex justify-center items-center h-48 sm:h-56 md:h-64">
+    <img
+      src="/ccP.png"
+      alt="Creator Classes Building"
+      className="object-contain h-full"
+    />
+  </div>
+</div>
+
+
           {/* Badge */}
           <div className="inline-flex items-center bg-indigo-900/30 backdrop-blur-sm px-4 py-2 rounded-full border border-indigo-700/50 mb-8">
             <GraduationCap className="w-4 h-4 text-indigo-400 mr-2" />
-            <span className="text-indigo-300 text-sm font-medium">
+            <span className=" text-sm font-medium">
               Transforming Students into Scholars Since 2014
             </span>
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 leading-tight">
             Creating{" "}
-            <span className="bg-gradient-to-r from-indigo-400 to-violet-500 text-transparent bg-clip-text">
+            <span className="bg-gradient-to-r from-indigo-400 to-violet-700 text-transparent bg-clip-text">
               Achievers
             </span>
-            , <span className="text-violet-300">Not Just Learners.</span>
+            , <span >Not Just Learners.</span>
           </h1>
 
           {/* Subtitle */}
@@ -121,8 +133,8 @@ const Home = () => {
         </div>
 
         {/* Teacher Profiles */}
-        <div className="max-w-5xl mx-auto mb-16">
-          <h2 className="text-2xl md:text-3xl font-bold text-white text-center mb-12">
+        <div className="max-w-5xl mx-auto mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-white text-center mb-8">
             Meet Our{" "}
             <span className="bg-gradient-to-r from-indigo-400 to-violet-500 text-transparent bg-clip-text">
               Expert Faculty

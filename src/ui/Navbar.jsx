@@ -18,7 +18,7 @@ function Navbar(){
         <div className="flex items-center group">
           <div className="bg-gradient-to-r from-indigo-600 to-violet-700 w-12 h-12 rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:shadow-indigo-500/25 transition-all duration-300">
         
-           <img src="/cclogo.png" alt="Logo" className="w-10 h-10  object-contain" />
+           <img src="/cclogo.png" alt="Logo" className="w-10 h-10 . object-contain" />
           </div>
           <div className="ml-3">
             <h1 className="text-xl font-bold text-white group-hover:text-indigo-300 transition-colors duration-300">
