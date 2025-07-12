@@ -1,10 +1,8 @@
-"use client"
-
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
 import { Menu, X, GraduationCap } from "lucide-react"
 
-const Navbar = () => {
+function NavBar(){
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navItems = [
@@ -113,4 +111,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default NavBar
