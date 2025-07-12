@@ -4,7 +4,7 @@ import { Menu, X, GraduationCap } from "lucide-react"
 
 function NavBar(){
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-
+console.log("war")
   const navItems = [
     { path: "/", label: "Home" },
     { path: "/programs", label: "Programs" },
