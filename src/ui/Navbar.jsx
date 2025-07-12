@@ -2,7 +2,7 @@ import { useState } from "react"
 import { NavLink } from "react-router-dom"
 import { Menu, X, GraduationCap } from "lucide-react"
 
-function NavBar(){
+function Navbar(){
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 console.log("war")
   const navItems = [
@@ -111,4 +111,4 @@ console.log("war")
   )
 }
 
-export default NavBar
+export default Navbar
