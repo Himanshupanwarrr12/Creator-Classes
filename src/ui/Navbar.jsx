@@ -4,7 +4,6 @@ import { Menu, X, GraduationCap } from "lucide-react"
 
 function Navbar(){
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-console.log("war")
   const navItems = [
     { path: "/", label: "Home" },
     { path: "/programs", label: "Programs" },
@@ -12,7 +11,6 @@ console.log("war")
     { path: "/results", label: "Results" },
     { path: "/contact", label: "Contact" },
   ]
-
   return (
     <nav className="bg-gradient-to-r from-slate-900/95 via-indigo-900/95 to-slate-900/95 backdrop-blur-md py-4 px-4 sticky top-0 z-50 shadow-2xl border-b border-indigo-700/50">
       <div className="container mx-auto flex justify-between items-center">
