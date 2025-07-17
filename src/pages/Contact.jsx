@@ -16,8 +16,16 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+ const contactData = {
+    userName: formData.name ,
+    email :formData.email,
+    phone:formData.phone,
+  }
+  console.log(contactData)
     alert('Thank you for your message! We will contact you soon.');
   };
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-indigo-900 to-slate-900 py-10">
@@ -112,7 +120,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-white mb-1">Our Location</h3>
-                    <p className="text-indigo-200 text-sm">123 Education Street, Learning City, 560001</p>
+                    <p className="text-indigo-200 text-sm">Opp. of Canara bank shiv chowk,Raiwala Dehradun , 249205</p>
                   </div>
                 </div>
 
@@ -122,8 +130,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-white mb-1">Call Us</h3>
-                    <p className="text-indigo-200 text-sm">+91 98765 43210</p>
-                    <p className="text-indigo-200 text-sm">+91 12345 67890</p>
+                    <p className="text-indigo-200 text-sm">+91 9760389381</p>
                   </div>
                 </div>
 
@@ -133,8 +140,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-white mb-1">Email Us</h3>
-                    <p className="text-indigo-200 text-sm">info@creatorclasses.com</p>
-                    <p className="text-indigo-200 text-sm">admissions@creatorclasses.com</p>
+                    <p className="text-indigo-200 text-sm">classescreator@gmail.com</p>
                   </div>
                 </div>
               </div>
