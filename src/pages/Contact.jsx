@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -14,17 +15,40 @@ const Contact = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    
- const contactData = {
-    userName: formData.name ,
-    email :formData.email,
-    phone:formData.phone,
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  // Validation
+  if (!formData.name || !formData.email || !formData.message) {
+    return alert('Please fill in all required fields');
   }
-  console.log(contactData)
-    alert('Thank you for your message! We will contact you soon.');
+
+  // EmailJS parameters
+  const templateParams = {
+    user_name: formData.name,
+    user_email: formData.email,
+    user_phone: formData.phone,
+    message: formData.message,
   };
+
+  console.log('Sending:', templateParams); // Debugging
+
+  emailjs.send(
+    'service_r9v3wss',
+    'template_ub9uluh',
+    templateParams,
+    '8deVUWRGfYmLjnl3c'
+  )
+  .then((response) => {
+    console.log('SUCCESS!', response.status, response.text);
+    alert('Thank you for your message! We will contact you soon.');
+    setFormData({ name: '', email: '', phone: '', message: '' });
+  })
+  .catch((err) => {
+    console.error('FAILED...', err);
+    alert('Failed to send message. Please try again later.');
+  });
+};;
 
 
   return (
