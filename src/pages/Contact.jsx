@@ -50,6 +50,7 @@ const Contact = () => {
                 <input
                   type="text"
                   id="name"
+                  placeholder='Enter your name'
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
@@ -65,6 +66,7 @@ const Contact = () => {
                     type="email"
                     id="email"
                     name="email"
+                    placeholder='Enter your email'
                     value={formData.email}
                     onChange={handleChange}
                     className="w-full bg-indigo-900/30 border border-indigo-700/50 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-2 focus:ring-violet-500"
@@ -77,6 +79,7 @@ const Contact = () => {
                     type="tel"
                     id="phone"
                     name="phone"
+                    placeholder='Enter your phone number'
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full bg-indigo-900/30 border border-indigo-700/50 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-2 focus:ring-violet-500"
@@ -90,6 +93,7 @@ const Contact = () => {
                 <textarea
                   id="message"
                   name="message"
+                  placeholder='Any message you want to give'
                   value={formData.message}
                   onChange={handleChange}
                   rows="4"

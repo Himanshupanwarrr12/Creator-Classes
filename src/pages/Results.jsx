@@ -12,6 +12,14 @@ const Results = () => {
     { id: 6,imageUrl: "/aditya.jpg" },
     { id: 7,imageUrl: "/ritika.jpg" },
     { id: 8,imageUrl: "/rohit.jpg" },
+    { id: 9,imageUrl: "/10/IMG-20250712-WA0012.jpg" },
+    { id: 10,imageUrl: "/10/IMG-20250712-WA0016.jpg" },
+    { id: 11,imageUrl: "/10/IMG-20250712-WA0020.jpg" },
+    { id: 12,imageUrl: "/10/IMG-20250712-WA0022.jpg" },
+    { id: 13,imageUrl: "/10/IMG-20250717-WA0003.jpg" },
+    { id: 14,imageUrl: "/10/IMG-20250717-WA0005.jpg" },
+    { id: 15,imageUrl: "/10/WhatsApp Image 2025-07-17 at 12.52.56_31cce015.jpg" },
+    { id: 16,imageUrl: "/10/WhatsApp Image 2025-07-17 at 12.34.49_c390632d.jpg" },
   ];
 
   return (
