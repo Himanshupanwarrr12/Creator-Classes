@@ -142,7 +142,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-white text-sm">Our Location</h4>
-                  <p className="text-indigo-200 text-xs">123 Education Street, Learning City, 560001</p>
+                  <p className="text-indigo-200 text-xs">Opp. of Canara bank shiv chowk,Raiwala Dehradun , 249205</p>
                 </div>
               </li>
 
@@ -152,8 +152,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-white text-sm">Call Us</h4>
-                  <p className="text-indigo-200 text-sm">+91 98765 43210</p>
-                  <p className="text-indigo-200 text-sm">+91 12345 67890</p>
+                  <p className="text-indigo-200 text-sm">+91 9760389381</p>
                 </div>
               </li>
 
@@ -163,8 +162,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-white text-sm">Email Us</h4>
-                  <p className="text-indigo-200 text-sm">info@creatorclasses.com</p>
-                  <p className="text-indigo-200 text-sm">admissions@creatorclasses.com</p>
+                  <p className="text-indigo-200 text-sm">classescreator@gmail.com</p>
                 </div>
               </li>
             </ul>
@@ -253,7 +251,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-white text-sm">Our Location</h4>
-                  <p className="text-indigo-200 text-xs">123 Education Street, Learning City, 560001</p>
+                  <p className="text-indigo-200 text-xs">Opp. of Canara bank shiv chowk,Raiwala Dehradun , 249205</p>
                 </div>
               </li>
 
@@ -263,8 +261,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-white text-sm">Call Us</h4>
-                  <p className="text-indigo-200 text-xs">+91 98765 43210</p>
-                  <p className="text-indigo-200 text-xs">+91 12345 67890</p>
+                  <p className="text-indigo-200 text-xs">+91 9760389381</p>
                 </div>
               </li>
 
@@ -274,8 +271,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-white text-sm">Email Us</h4>
-                  <p className="text-indigo-200 text-xs">info@creatorclasses.com</p>
-                  <p className="text-indigo-200 text-xs">admissions@creatorclasses.com</p>
+                  <p className="text-indigo-200 text-xs">classescreator@gmail.com</p>
                 </div>
               </li>
             </ul>
