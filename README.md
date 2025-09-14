@@ -1,28 +1,24 @@
-Creator Classes Website
+# 🎓 Creator Classes Website
 📌 About
-This is a website built for Creator Classes, an educational coaching institute.
-It provides information about the institute, courses, teachers, contact details, and other important resources for students.
 
-✨ Features
+The Creator Classes Website is a modern, responsive platform built for an educational coaching institute.
+It provides details about the institute, available courses, faculty, and contact information to help students connect easily.
 
-Home page with coaching introduction
+---
 
-About section for institute details
+## ✨ Features
 
-Courses offered with details
+- 🏠 Home Page – Coaching introduction & highlights
+- 📖 About Section – Information about the institute
+- 📚 Courses Page – List of courses with details
+- ✉️ Contact Form – Workable form to reach out
+- 📱 Responsive Design – Optimized for desktop & mobile
 
-Contact form / information (workable)
+---
 
-Responsive design (works on desktop & mobile)
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
-
-HTML5
-
-CSS3
-
-JavaScript
-
-React
-
-
+- ⚡ HTML5
+- 🎨 CSS3
+- 🖥️ JavaScript
+- ⚛️ React
